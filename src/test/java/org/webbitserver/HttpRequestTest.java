@@ -16,7 +16,7 @@ public class HttpRequestTest {
     @Test
     public void extractsSingleQueryParameter() throws Exception {
         HttpRequest req = new StubHttpRequest("http://host.com:8080/path?fish=cod&fruit=orange");
-        assertEquals("cod", req.queryParam("fish"));
+        assertEquals("cod", req.queryParam("fishi"));
     }
 
     @Test

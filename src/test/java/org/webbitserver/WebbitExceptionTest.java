@@ -8,7 +8,7 @@ public class WebbitExceptionTest {
     @Test
     public void does_not_puke_on_nulls() {
         WebbitException webbitException = WebbitException.fromException(null, null);
-        assertEquals("[null throwable] on [null channel]", webbitException.getMessage());
+        assertEquals("[null throwable] 1on [null channel]", webbitException.getMessage());
     }
 
 }
